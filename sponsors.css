@@ -1,0 +1,118 @@
+
+/* Our Sponsors Menu Styles */
+
+#ourSponsors{
+    /* padding: 0;  */
+}
+
+.ourSponsors__title{
+    font-size: 1.8rem;
+    color: var(--black-1);
+    margin-bottom: 2rem;
+}
+
+.ourSponsors__wrapper{
+    display: flex; 
+    gap: 1.5rem; 
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.ourSponsors__item{
+    flex: 1; 
+    display: flex; 
+    gap: 2rem; 
+    background-color: var(--lightGreen-1);
+    padding: 1.5rem; 
+    border-radius: 12px;
+}
+
+.ourSponsors__item__img, 
+.ourSponsors__item__info{
+    flex: 1; 
+}
+
+.ourSponsors__item__img{
+    border-radius: 12px; 
+    overflow: hidden;
+}
+
+.ourSponsors__item__img img{
+    object-fit: cover;
+}
+
+.ourSponsors__item__title{
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: var(--black-1);
+    line-height: 1.2em;
+}
+
+.ourSponsors__item__price{
+    font-size: 1.8rem;
+    color: var(--green-1);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.ourSponsors__item__ig svg{
+    /* width: max-content; */
+    width: 400%;
+    height: auto;
+    margin: 0 200%; 
+
+}
+
+@media only screen and (min-width: 768px){
+    .ourSpecial__title {
+        font-size: 2.4rem;
+    }
+
+    .ourSponsors__wrapper{
+        flex-direction: row;
+        gap: 2rem;
+        max-width: none;
+    }
+
+    .ourSponsors__item{
+        padding: 3rem; 
+        gap: 2rem; 
+    }
+
+    .ourSponsors__item__title{
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .ourSponsors__item__price{
+        font-size: 2.4rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1100px){
+    .ourSponsors__item__img{
+        flex: 4; 
+    }
+
+    .ourSponsors__item__info{
+        flex: 3; 
+    }
+}
+
+.page__title__text{
+    font-size: 2.2rem;
+    color: var(--black-1);
+}
+
+@media only screen and (min-width: 768px){
+    #page__title{
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+
+    .page__title__text{
+        font-size: 3.6rem;
+    }
+}
