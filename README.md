@@ -1,9 +1,10 @@
 # Skule French Society Website
 
+https://skule-french-society.netlify.app
+
 ## TODO
 
-- [ ] Correct page names and titles
-- [ ] General page layout
+- [ ] make header and footer components
 
   - [ ] Home
   - [ ] About the team
